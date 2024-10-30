@@ -22,10 +22,13 @@
                         primary: 'rgb(33,33,33)',
                         secondary: 'rgb(73,73,73)',
                         tertiary: 'rgb(28,28,28)',
+                        designbg: 'rgb(244,244,244)',
+                        spanColor: 'rgb(115,115,115)',
                         border1: 'rgb(233,233,233)',
                         btn1: 'rgb(171,239,95)',
                         btn2: 'rgba(171,239,95,0.2)',
-                        btn3: 'rgba(171,239,95,0.5)'
+                        btn3: 'rgba(171,239,95,0.5)',
+                        btn4: 'rgb(255,255,255)'
                     },
                     fontFamily: {
                         Manrope: '"Manrope", serif;'
@@ -37,7 +40,7 @@
 </head>
 <body class="font-Manrope">
     <!-- Header section -->
-     <header class="w-full h-auto bg-[#F5F5F5]">
+     <header class="w-full h-auto bg-[#FBFBFB]">
         <div class="w-11/12 md:w-10/12 mx-auto">
             <nav>
                 <div class="navbar">
@@ -109,7 +112,56 @@
      </header>
     <!-- Main section -->
      <main>
-
+        <section class="bg-designbg py-12">
+            <div class="w-11/12 md:w-10/12 mx-auto">
+                <div class="flex-row md:flex md:justify-between gap-6">
+                    <div>
+                        <div class="hidden md:block relative -ml-16 z-20">
+                            <div class="border-2 border-dashed border-slate-300 w-28 h-20 flex items-center">
+                                <img src="assets/Vector.png" alt="Vector">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="relative">
+                                <div class="absolute bg-btn4 border border-solid border-slate-200 rounded-2xl px-4 py-2 -mt-12 left-1/2 md:left-16 md:-top-1 transform -translate-x-1/2 md:-mt-3 md:z-0">
+                                    <button class="text-secondary text-base text-left font-bold flex items-center"><i class="fa-solid fa-arrow-right mr-2"></i>About Us</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8 mb-4">
+                            <h2 class="text-primary text-xl  md:text-3xl font-bold leading-6 md:leading-10 text-center md:text-left">We design thoughtful, <br> liveable spaces</h2>
+                            <p class="mt-4 text-secondary text-sm md:text-base font-medium leading-relaxed tracking-wide text-center md:text-left">The barn house captivates with its blend of rustic charm and <br class="hidden md:inline">
+                                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                        </div>
+                        <div>
+                            <div class="flex gap-4 mt-3 bg-btn4 rounded-2xl p-3">
+                                <div>
+                                    <img src="assets/commercial.png" alt="commercial">
+                                </div>
+                                <div>
+                                    <h4 class="text-secondary text-lg font-extrabold leading-7 text-left mt-2">Commercial</h4>
+                                    <span class="text-spanColor text-base font-medium leading-6 text-left">The barn house captivates with its blend <br> of rustic charm and modern.</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-4 mt-3 bg-btn4 rounded-2xl p-3">
+                                <div>
+                                    <img src="assets/residential.png" alt="commercial">
+                                </div>
+                                <div>
+                                    <h4 class="text-secondary text-lg font-extrabold leading-7 text-left mt-2">Residential</h4>
+                                    <span class="text-spanColor text-base font-medium leading-6 text-left">Experience the comfort and elegance of modern <br> residential living, designed to meet</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex justify-center mt-6 md:pt-16">
+                            <img class="w-[80%] h-auto" src="assets/Rectangle.png" alt="Rectangle">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
      </main>
     <!-- Footer section -->
      <footer>
