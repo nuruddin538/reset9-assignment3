@@ -67,7 +67,7 @@
                                 </div>
                                 <div class="bg-white p-2 rounded-full border border-solid border-border1">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.2w-64M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                                       </svg>
                                       
                                 </div>
@@ -112,53 +112,114 @@
      </header>
     <!-- Main section -->
      <main>
-        <section class="bg-designbg py-12">
+        <!-- Design Thoughtful Section -->
+         <div class="bg-designbg py-12">
+            <section>
+                <div class="w-11/12 md:w-10/12 mx-auto">
+                    <div class="flex-row md:flex md:justify-between gap-6">
+                        <div>
+                            <div class="hidden md:block relative -ml-16 z-20">
+                                <div class="border-2 border-dashed border-slate-300 w-28 h-20 flex items-center">
+                                    <img src="assets/Vector.png" alt="Vector">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="relative">
+                                    <div class="absolute bg-btn4 border border-solid border-slate-200 rounded-2xl px-4 py-2 -mt-12 left-1/2 md:left-16 md:-top-1 transform -translate-x-1/2 md:-mt-3 md:z-0">
+                                        <button class="text-secondary text-base text-left font-bold flex items-center"><i class="fa-solid fa-arrow-right mr-2"></i>About Us</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-8 mb-4">
+                                <h2 class="text-primary text-xl  md:text-3xl font-bold leading-6 md:leading-10 text-center md:text-left">We design thoughtful, <br> liveable spaces</h2>
+                                <p class="mt-4 text-secondary text-sm md:text-base font-medium leading-relaxed tracking-wide text-center md:text-left">The barn house captivates with its blend of rustic charm and <br class="hidden md:inline">
+                                    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                            </div>
+                            <div>
+                                <div class="flex gap-4 mt-3 bg-btn4 rounded-2xl p-3">
+                                    <div>
+                                        <img src="assets/commercial.png" alt="commercial">
+                                    </div>
+                                    <div>
+                                        <h4 class="text-secondary text-lg font-extrabold leading-7 text-left mt-2">Commercial</h4>
+                                        <span class="text-spanColor text-base font-medium leading-6 text-left">The barn house captivates with its blend <br> of rustic charm and modern.</span>
+                                    </div>
+                                </div>
+                                <div class="flex gap-4 mt-3 bg-btn4 rounded-2xl p-3">
+                                    <div>
+                                        <img src="assets/residential.png" alt="commercial">
+                                    </div>
+                                    <div>
+                                        <h4 class="text-secondary text-lg font-extrabold leading-7 text-left mt-2">Residential</h4>
+                                        <span class="text-spanColor text-base font-medium leading-6 text-left">Experience the comfort and elegance of modern <br> residential living, designed to meet</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-center mt-6 md:pt-16">
+                                <img class="w-[80%] h-auto" src="assets/Rectangle.png" alt="Rectangle">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Work Process Section -->
+             <section class="py-12">
+                <div class="w-11/12 md:w-10/12 mx-auto">
+                    <div class="flex justify-center items-center">
+                        <div class="bg-btn4 border border-solid border-slate-200 rounded-2xl btn px-4 py-2">
+                            <button class="text-secondary text-base text-left font-bold flex items-center"><i class="fa-solid fa-arrow-right mr-2"></i>How we works</button>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h2 class="text-primary text-xl  md:text-3xl font-bold leading-6 md:leading-10 text-center">Our Works Process</h2>
+                        <p class="mt-4 text-secondary text-sm md:text-base font-medium leading-relaxed tracking-wide text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 justify-items-center">
+                        <div class="card bg-[#E7C1D3] w-64 mt-8">
+                            <div class="card-body">
+                                <img class="w-16 h-16" src="assets/concept.png" alt="concept">
+                                <h4 class="text-secondary text-lg font-extrabold leading-7 text-left mt-2">Concept</h4>
+                                <span class="text-spanColor text-base font-medium leading-6 text-left">The barn house captivates <br> with its blend of rustic charm <br> and modern.</span>
+                            </div>
+                        </div>
+                        <div class="card bg-[#EFDA6E] w-64 mt-8">
+                            <div class="card-body">
+                                <img class="w-16 h-16" src="assets/flow-chart.png" alt="concept">
+                                <h4 class="text-secondary text-lg font-extrabold leading-7 text-left mt-2">Design Process</h4>
+                                <span class="text-spanColor text-base font-medium leading-6 text-left">The design process is a <br> structured approach to problem-solving, guiding <br> teams from initial</span>
+                            </div>
+                        </div>
+                        <div class="card bg-[#A4DAC3] w-64 mt-8">
+                            <div class="card-body">
+                                <img class="w-16 h-16" src="assets/vision.png" alt="concept">
+                                <h4 class="text-secondary text-lg font-extrabold leading-7 text-left mt-2">Supervision</h4>
+                                <span class="text-spanColor text-base font-medium leading-6 text-left">Supervision involves overseeing <br> and guiding individuals or <br> teams to ensure that tasks.</span>
+                            </div>
+                        </div>
+                        <div class="card bg-[#77AAEA] w-64 mt-8">
+                            <div class="card-body">
+                                <img class="w-16 h-16" src="assets/budget-planning.png" alt="concept">
+                                <h4 class="text-secondary text-lg font-extrabold leading-7 text-left mt-2">Budget Planning</h4>
+                                <span class="text-spanColor text-base font-medium leading-6 text-left">Budget planning is the process <br> of creating a financial plan <br> that outlines expected</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+         </div>
+         <!-- Portfolio section -->
+         <section class="py-16">
             <div class="w-11/12 md:w-10/12 mx-auto">
-                <div class="flex-row md:flex md:justify-between gap-6">
-                    <div>
-                        <div class="hidden md:block relative -ml-16 z-20">
-                            <div class="border-2 border-dashed border-slate-300 w-28 h-20 flex items-center">
-                                <img src="assets/Vector.png" alt="Vector">
-                            </div>
-                        </div>
-                        <div>
-                            <div class="relative">
-                                <div class="absolute bg-btn4 border border-solid border-slate-200 rounded-2xl px-4 py-2 -mt-12 left-1/2 md:left-16 md:-top-1 transform -translate-x-1/2 md:-mt-3 md:z-0">
-                                    <button class="text-secondary text-base text-left font-bold flex items-center"><i class="fa-solid fa-arrow-right mr-2"></i>About Us</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mt-8 mb-4">
-                            <h2 class="text-primary text-xl  md:text-3xl font-bold leading-6 md:leading-10 text-center md:text-left">We design thoughtful, <br> liveable spaces</h2>
-                            <p class="mt-4 text-secondary text-sm md:text-base font-medium leading-relaxed tracking-wide text-center md:text-left">The barn house captivates with its blend of rustic charm and <br class="hidden md:inline">
-                                modern sophistication, featuring weathered wood, sleek metal accents.</p>
-                        </div>
-                        <div>
-                            <div class="flex gap-4 mt-3 bg-btn4 rounded-2xl p-3">
-                                <div>
-                                    <img src="assets/commercial.png" alt="commercial">
-                                </div>
-                                <div>
-                                    <h4 class="text-secondary text-lg font-extrabold leading-7 text-left mt-2">Commercial</h4>
-                                    <span class="text-spanColor text-base font-medium leading-6 text-left">The barn house captivates with its blend <br> of rustic charm and modern.</span>
-                                </div>
-                            </div>
-                            <div class="flex gap-4 mt-3 bg-btn4 rounded-2xl p-3">
-                                <div>
-                                    <img src="assets/residential.png" alt="commercial">
-                                </div>
-                                <div>
-                                    <h4 class="text-secondary text-lg font-extrabold leading-7 text-left mt-2">Residential</h4>
-                                    <span class="text-spanColor text-base font-medium leading-6 text-left">Experience the comfort and elegance of modern <br> residential living, designed to meet</span>
-                                </div>
-                            </div>
-                        </div>
+                <div class="flex justify-center items-center">
+                    <div class="bg-btn2 border border-solid border-slate-200 rounded-2xl btn px-4 py-2">
+                        <button class="text-secondary text-base text-left font-bold flex items-center"><i class="fa-solid fa-arrow-right mr-2"></i>Explore our Latest works</button>
                     </div>
-                    <div>
-                        <div class="flex justify-center mt-6 md:pt-16">
-                            <img class="w-[80%] h-auto" src="assets/Rectangle.png" alt="Rectangle">
-                        </div>
-                    </div>
+                </div>
+                <div class="mt-8">
+                    <h2 class="text-primary text-xl  md:text-3xl font-bold leading-6 md:leading-10 text-center">Our Latest Portfolio</h2>
+                    <p class="mt-4 text-secondary text-sm md:text-base font-medium leading-relaxed tracking-wide text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
                 </div>
             </div>
         </section>
