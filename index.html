@@ -25,6 +25,7 @@
                         border1: 'rgb(233,233,233)',
                         btn1: 'rgb(171,239,95)',
                         btn2: 'rgba(171,239,95,0.2)',
+                        btn3: 'rgba(171,239,95,0.5)'
                     },
                     fontFamily: {
                         Manrope: '"Manrope", serif;'
@@ -36,54 +37,75 @@
 </head>
 <body class="font-Manrope">
     <!-- Header section -->
-     <header class="w-full h-screen bg-[#F5F5F5]">
-        <nav class="container mx-auto">
-            <div class="navbar">
-                <div class="navbar-start">
-                    <div class="bg-btn1 w-8 h-8 rounded-full flex justify-center items-center">
-                        <i class="fa-solid fa-arrow-right-long text-sm transform -rotate-45"></i>
-                    </div>
-                    <a class="text-primary text-2xl ml-1 font-extrabold">Rinterio</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a class="font-bold text-sm">Home</a></li>
-                    <li class="text-[#737373] font-normal text-sm"><a>Service</a></li>
-                    <li class="text-[#737373] font-normal text-sm"><a>Portfolio</a></li>
-                    <li class="text-[#737373] font-normal text-sm"><a>Blogs</a></li>
-                    <li class="text-[#737373] font-normal text-sm"><a>Contact Us</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                    <div class="hidden md:block">
-                        <div class="flex justify-center items-center gap-2 md:gap-6">
-                            <div class="bg-white p-3 rounded-full border border-solid border-border1 shadow-md flex justify-center items-center">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </div>
-                            <div class="bg-white p-2 rounded-full border border-solid border-border1">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                                  </svg>
-                                  
-                            </div>
-                            <div class="bg-[#ABEF5F] rounded-3xl p-3 flex gap-1">
-                                <a class="text-base font-bold text-tertiary">Book Consult</a>
-                                <div class="bg-[#1C1C1C] w-6 h-6 rounded-full flex justify-center items-center">
-                                <i class="fa-solid fa-arrow-right-long text-white text-sm transform -rotate-45"></i>
-                                </div>
-                              </div>
+     <header class="w-full h-auto bg-[#F5F5F5]">
+        <div class="w-11/12 md:w-10/12 mx-auto">
+            <nav>
+                <div class="navbar">
+                    <div class="navbar-start">
+                        <div class="bg-btn1 w-8 h-8 rounded-full flex justify-center items-center">
+                            <i class="fa-solid fa-arrow-right-long text-sm transform -rotate-45"></i>
                         </div>
+                        <a class="text-primary text-2xl ml-1 font-extrabold">Rinterio</a>
                     </div>
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                          </svg>                          
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1">
+                        <li><a class="font-bold text-sm">Home</a></li>
+                        <li class="text-[#737373] font-normal text-sm"><a>Service</a></li>
+                        <li class="text-[#737373] font-normal text-sm"><a>Portfolio</a></li>
+                        <li class="text-[#737373] font-normal text-sm"><a>Blogs</a></li>
+                        <li class="text-[#737373] font-normal text-sm"><a>Contact Us</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <div class="hidden md:block">
+                            <div class="flex justify-center items-center gap-2 md:gap-6">
+                                <div class="bg-white p-3 rounded-full border border-solid border-border1 shadow-md flex justify-center items-center">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <div class="bg-white p-2 rounded-full border border-solid border-border1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                      </svg>
+                                      
+                                </div>
+                                <div class="bg-[#ABEF5F] rounded-3xl p-3 flex justify-center items-center gap-1">
+                                    <a class="text-xs lg:text-base font-normal lg:font-bold text-tertiary">Book Consult</a>
+                                    <div class="bg-[#1C1C1C] w-6 h-6 rounded-full flex justify-center items-center">
+                                    <i class="fa-solid fa-arrow-right-long text-white text-sm transform -rotate-45"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                              </svg>                          
+                        </div>
+                      </div>
                     </div>
                   </div>
+            </nav>
+            <section>
+                <div class="py-8">
+                    <div class="flex items-center justify-center">
+                        <img class="w-[250px] h-[250px] md:w-[350px] md:h-[350px]" src="assets/banner.png" alt="banner">
+                    </div>
+                    <div class="text-center mt-4">
+                        <h1 class="text-primary text-lg md:text-4xl font-extrabold text-center leading-tight">A barn house of this design has a <br> striking appearance</h1>
+                        <p class="text-secondary font-normal md:font-medium leading-6 text-center text-xs md:text-base mt-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+                        <button class="bg-btn3 rounded-3xl mt-6 p-3">
+                            <div class="flex justify-center items-center gap-2">
+                                <a class="text-sm font-bold text-tertiary leading-6">View Details</a>
+                                <div class="bg-btn1 w-6 h-6 rounded-full flex justify-center items-center">
+                                    <i class="fa-solid fa-arrow-right-long text-tertiary text-sm transform -rotate-45"></i>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
                 </div>
-              </div>
-        </nav>
+            </section>
+        </div>
      </header>
     <!-- Main section -->
      <main>
